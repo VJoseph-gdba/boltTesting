@@ -127,3 +127,8 @@ The server configuration is stored in `~/.config/NetworkMonitor/server/config.js
 ## License
 
 MIT
+
+
+
+Base prompt:
+create me an app in go that will have a client and a server the client will send https request to two website and send the complete result to the server (handshake, dnc, tcp etc...) the server will recieve these info and will process it by a list of client connected and disconnected. When we click on a client we have his dashboard where we can see since when he is online and what are the status of the client https request. The goal here is to have a graph and list to navigate throught the history of the client and to be able to notice and analyse network problem on the client side. Additionnaly the client and server will be manage through various command by using the systray. I also want the client to be able to modify config file from a software from distance, open it on the server webpage and edit it live without asking for administrator permission. i want the interface to be clean and modern like material design 3
