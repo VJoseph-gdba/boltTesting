@@ -3,10 +3,10 @@ package client
 import (
 	"context"
 	"crypto/tls"
-	"fmt"
 	"net"
 	"net/http"
 	"net/http/httptrace"
+	"net/url"
 	"networkmonitor/shared"
 	"sync"
 	"time"

@@ -2,6 +2,7 @@ package server
 
 import (
 	"fmt"
+	"networkmonitor/shared"
 	"os"
 
 	"github.com/getlantern/systray"
